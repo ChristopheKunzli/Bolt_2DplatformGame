@@ -1,11 +1,22 @@
 1. Créer le prefab pomme
+	- ajouter Sprite renderer
+		=> Attacher le sprite "apple.png"
+	- ajouter Rigidbody2d 
+		=> Gravity Scale à 0
+	- ajouter FlowMachine
 2. Créer le prefab abeille
+	- ajouter Sprite renderer
+		=> Attacher le sprite "bee.png"
+	- ajouter Rigidbody2d 
+		=> Gravity Scale à 0
+	- ajouter FlowMachine
 3. Crer une Macro "EatApple"
 	=> La pomme disparait au contact avec le joueur
-	=> L'abeille apparait
+	=> Une abeille apparait
 5. Ajouter la macro "EatApple" au prefab de la pomme
 6. Créer une Macro "BeeAttack"
 	=> L'abeille se déplace en ligne droite vers le joueur
 	=> Si elle touche le joueur, le player meurt/prend des dégats
 	=> L'abeille disparait après 10 secondes
 7. Ajouter la macro "BeeAttack" au prefab de l'abeille
+8. Ajouter une ou plusieurs pommes dans une Scene
