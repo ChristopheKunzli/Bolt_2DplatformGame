@@ -1,0 +1,11 @@
+1. Créer le prefab pomme
+2. Créer le prefab abeille
+3. Crer une Macro "EatApple"
+	=> La pomme disparait au contact avec le joueur
+	=> L'abeille apparait
+5. Ajouter la macro "EatApple" au prefab de la pomme
+6. Créer une Macro "BeeAttack"
+	=> L'abeille se déplace en ligne droite vers le joueur
+	=> Si elle touche le joueur, le player meurt/prend des dégats
+	=> L'abeille disparait après 10 secondes
+7. Ajouter la macro "BeeAttack" au prefab de l'abeille
